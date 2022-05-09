@@ -1,0 +1,248 @@
+#smart,#bottom{
+
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    
+}
+
+.menu-bar{
+    margin-bottom: 50px;
+}
+#smart
+{
+    margin-top: 80px;
+    width: 1000px;
+    margin: auto;
+}
+.labal{
+    margin-left: 10%;
+    margin-bottom: 5px;
+}
+#maindiv{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+#left-half{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+    gap: 5px;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+}
+#left-half::-webkit-scrollbar{
+    display: none;
+}
+.pointing{
+    cursor: pointer;
+}
+#left-half>div>img
+{
+    width: 100%;
+}
+#right-half{
+    width: 30%;
+    height: 600px;
+    margin-left:20px;
+}
+@media all and (min-width:150px) and (max-width:1200px){
+
+    #maindiv{
+        width: 1200px;
+        margin: auto;
+        display: flex;
+    }
+     #right-half{
+        width: 400px;
+        height: 600px;
+        margin-left:20px;
+        margin: auto;
+    }
+    #left-half{
+        width: 600px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: auto;
+        gap: 5px;
+        height: 600px;
+        overflow: hidden;
+        overflow-y: scroll;
+        margin: auto;
+    
+    }
+}
+.bolder{
+    font-weight: bold;
+}
+.head{
+    font-size: 18px;
+}
+.margintopp{
+    margin-top: 10px;
+}
+.fonts{
+    font-family: 'Lora', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.circle{
+   
+    width: 25px;
+    height: 25px;
+}
+.circle>img{
+    width: 100%;
+    
+}
+.tables{
+    display: flex;
+    justify-content:flex-start;
+}
+.tables>div
+{
+    margin-right: 5px;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    font-weight: 400;
+}
+.tables>div:hover
+{
+    color: white;
+    background-color: black;
+    border: none;
+    font-weight: 900;
+}
+.botm{
+    margin-bottom: 10px;
+}
+.fromtop{
+     margin-top: 20px; 
+     line-height: 10px;
+}
+.clicker{
+    background: #EE4A1B;
+    border-color: #EE4A1B;
+    text-align: center;
+    line-height: 30px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.colors{
+    color: #000;
+    background: #FFF;
+    border: 1px solid #c2bfbf;
+}
+.parts{
+    line-height: 20px;
+    text-align: center;
+    display: flex;
+   
+}
+.part1 {
+    width: 50%;
+    font-weight: 550;
+}
+.part2 {
+    width: 50%;
+    
+}
+
+   
+.line>li{
+    line-height: 15px;
+    display: list-item; 
+    list-style-type: disc;       
+    list-style-position: inside;
+    font-family: GTAmerica, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+#showoff{
+    border: none;
+    margin-top: 10px;
+    font-weight:bold;
+    font-family: GTAmerica, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+#blackbox
+{
+border: 2px solid black;
+width: fit-content;
+padding: 10px 15px;    
+font-family: GTAmerica, "Helvetica Neue", Helvetica, sans-serif;
+font-weight: 550;
+}
+#bottom{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.margintopps{
+    margin-top: 50px;
+    
+}
+
+#box,#box2,#box3{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+#box::-webkit-scrollbar,#box2::-webkit-scrollbar,#box3::-webkit-scrollbar{
+    display: none;
+}
+
+#box>div,#box2>div,#box3>div{
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin-left: 2px;
+}
+#box>div>img,#box2>div>img,#box3>div>img{
+    width: 140px;
+}
+#box>div>h3,#box2>div>h3,#box3>div>h3{
+    height: 12px;
+    width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px;
+}
+
+#box2>div>h2,#box2>div>p{
+    margin-top: 2px;
+    margin: 0px;
+    padding: 0px;
+}
+.textalign{
+    text-align: center;
+    font-family: "GT-America-Standard","Helvetica Neue",Helvetica,sans-serif;
+}
+.widther{
+   width: fit-content;
+    margin: auto;
+    
+}
+.btpadding{
+    padding: 8px 40px ;
+    font-size: 12px;
+    
+}
