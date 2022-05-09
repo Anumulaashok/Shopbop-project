@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>address</title>
+    <style>
+body{
+    background-color: white;
+}
+#conti{
+    width: 700px;
+    height: 700px;
+    background-color: #f8f7f7;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* border: 1mm solid red; */
+    padding: 10px;
+    
+}
+label{
+    text-align: left;
+}
+.small{
+    gap: 10px;
+    margin: auto;
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+}
+.small>input{
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+input{
+    margin-top: 10px;
+    /* width: 300px; */
+    width: 80%;
+    height: 40px;
+    margin-bottom: 5%;
+    font-size: 16px;
+}
+select{
+    width: 80%;
+    height: 3rem;
+}
+.center{
+    text-align: center;
+    font-size:25px ;
+}
+.lefts{
+    padding: 0px;
+    margin: 0px;
+    /* margin-left: -220px; */
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 20px;
+   margin-bottom: -10px;
+}
+br{
+    margin: 20px
+}
+#name{
+    margin-bottom: 5%;
+}
+#submit{
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    border: none;
+
+}
+    </style>
+</head>
+<body>
+    
+        <div class="center"><h2>Address</h2></div>
+        <div id="conti">
+    <form action="">
+        <p class="lefts">Country</p>
+        <br>
+       <select name="country" id="name">
+           
+           <option value="india">India</option>
+           <option value="us">US</option>
+           <option value="uk">UK</option>
+       </select>
+       
+      <br>
+       <input type="text" placeholder="Full Name">
+       <br>
+        <input type="text" placeholder="Address or P.O.Box">
+        <br>
+        <input type="text" placeholder="Zip/Postal Code">
+        <div class="small"><input type="text" placeholder="City">
+        <input type="text" placeholder="State"></div>
+        <br>
+        <input type="text" placeholder="Phone Number">
+        <br>
+        <input type="submit" id="submit" onclick="iam()" value="Save & Continue">
+    </form>
+</div>
+</body>
+</html>
+<script>
+
+
+function iam(){
+    event.preventDefault();
+    window.location.href="payment.html"
+}
+    
+</script>

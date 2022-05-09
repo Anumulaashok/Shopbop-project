@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/payment.css">
+    <title>Payment</title>
+    <style>
+        
+        #bow {
+    width: 30%;
+    margin: auto;
+   height: 500px;
+   margin-top: 30px;
+   padding: 10px;
+   padding-bottom: -40px;
+   box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+body{
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Mier book";
+    
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+ul{
+display: block;
+list-style-type: none;
+font-size: 30px;
+margin-left:5px ;
+margin-bottom: 15px;
+}
+img{
+    height: 50px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: -5px;
+}
+.line {
+    width: 100%;
+    height: 0.5px;
+    margin: auto;
+    background-color: black;
+    }
+    .h21 {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    a{
+        text-decoration : none;
+}
+#con {
+    display: flex;
+    
+}
+
+    </style> 
+</head>
+<body>
+  
+    <h1>
+        Choose Payment Method
+    </h1>
+    <div id="con">
+        <div id="bow">
+            <h2>
+               <ul>UPI 
+                   
+                   <li> <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.nbu.paisa.user" target="_blank">                   <img src="data:image/png;base64,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" alt="">
+    </a>
+                   </li>
+                <li> <a href="https://paytm.com/" target="_blank">
+                                    <img src="data:image/png;base64,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" alt=""></li>
+    
+                </a>
+                   <li> <a href="https://www.phonepe.com/" target="_blank">
+                    <img src="https://thelivenagpur.com/wp-content/uploads/2020/03/New-PhonePe-Logo.png" alt=""></li>
+    
+                   </a>
+               </ul>
+               </h2>
+               <div class="line"></div>
+               <h2 class="h21"> <a href="https://retail.onlinesbi.com/retail/login.htm" target="_blank">🏦 Net Banking</h2></a>
+    <h2 class="h21" > <a href="gateway.html" >
+
+    💳 Debit / Credit Card</h2></a>
+    <div class="line"></div>
+   <a href="success.html">  <h2 class="h21">₹ Cash On Delivery</h2></a>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    // function functioncard(){
+    //     window.location.href="gateway.html"
+    // }
+    // function functioncod(){
+    //     window.location.href="success.html"
+    // }
+</script>
