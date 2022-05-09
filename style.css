@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(252, 235, 221);
+
+}
+#form{
+    font-size: 10px;
+
+}
+input{
+    width: 25%;
+    height: 25px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+body{
+    background-size: 100%;
+text-align: center;
+    justify-content: center;
+
+}
+
+.header>h2{
+margin-top: 20px;
+}
+
+.control{
+    margin-top: 10px;
+
+}
+
+.control>h3{
+    display: block;
+    padding-left: -15px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+ .but{
+    background-color: rgb(255, 93, 34);
+     width: 25%;
+     height:25 ;
+     margin-top:10px ;
+     color: aliceblue;
+     border-color: rgb(255, 72, 0);
+ }
+ h4{
+     color: rgb(80, 77, 77);
+ }
+a{
+    color:rgb(255, 93, 34); 
+ 
+}
+p{
+    margin-top: 10px;
+}
+img{
+    margin-top: 10px;
+}
+.abhay{
+    margin-top: 20px;
+    color: rgb(68, 69, 70);
+}
+.already{
+    margin-top: 20px;
+    font-size: 10px;
+
+}
