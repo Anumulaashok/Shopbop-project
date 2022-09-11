@@ -38,7 +38,6 @@ We, a group of 6 members, have finished this project and have built a clone of a
 
 
 ## Glimpses of our project
-# 1. Landing Page / Home Page
 # 1. Landing Page / LogIn page
 ![image](https://anumulaashokportfolio.netlify.app/components/shopbop1.png)
 
