@@ -7,7 +7,7 @@ The project is a clone of [Headphone Zone](https://www.shopbop.com/) which is an
 
 # Welcome Here!
 Hello Readers,
-Site link:-https://shopbopcom.netlify.app/
+Site link:-https://stately-semolina-d494bf.netlify.app/
 We, a group of 6 members, have finished this project and have built a clone of a very popular online clothing and Accessories' shopping ecom platform, shopbop.com, where users can purchase quality cloths, Accessorices and can Get beautiful And Attractive Look. 
 
 
